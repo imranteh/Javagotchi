@@ -79,6 +79,11 @@ public class Creature {
             status += "Oh no, " + this.getName() + " is really hungry. \n"; // \n makes it go new line
         }
 
+        if(happiness <= 0 || energy <= 0 || fullness <= 0){
+            print("Oh no! " + this.getName() + " has died. :(");
+            System.exit(status 0);
+        }
+
         return status;
     }
 
