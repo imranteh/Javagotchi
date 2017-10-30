@@ -81,7 +81,7 @@ public class Creature {
 
         if(happiness <= 0 || energy <= 0 || fullness <= 0){
             print("Oh no! " + this.getName() + " has died. :(");
-            System.exit(status 0);
+            System.exit(0);
         }
 
         return status;
